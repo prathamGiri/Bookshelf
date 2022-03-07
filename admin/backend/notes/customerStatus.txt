@@ -1,0 +1,10 @@
+0 === [Free]Have 0 books
+1 === [Occupied]Reading book(have 1 book)
+2 === [locked]Cannot Order Another Book unless status changes to 0, 1 or 3(cant have more than 1 book)
+3 === [Returning]can order a book
+
+            <-------------------------------------Only Returning complete---------------------------<-
+            |                                                                                        |
+            0 ---ordered a book---> 2 ---order complete---> 1 ---reding completed returning book---> 3 
+                                    |                                                                |
+                                    <--------------Exchanging order---------------------------------<-

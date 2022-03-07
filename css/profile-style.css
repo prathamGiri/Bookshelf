@@ -1,0 +1,119 @@
+.main{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+.msg{
+    width: 100%;
+}
+
+.msg p{
+    padding: 5px;
+    text-align: center;
+    background-color: #04AA6D;
+    color:white;
+    font-size: 22px;
+}
+.infowrapper{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 40%;
+}
+
+.infowrapper ul{
+    width: 80%;
+    margin: auto;
+
+}
+
+.infowrapper li{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.mainwrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.currentimg{
+    height: 300px;
+    width: 220px;
+    box-shadow: 5px 15px 30px rgba(0,0,0,0.3);
+    margin:0px 20px 10px 20px;
+    overflow: hidden;
+}
+.currentimg img{
+    height: 300px;
+    width: 220px;
+    object-fit: cover;
+    object-position: top;
+}
+.currentwrapper{
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.currentwrapper h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+.currentcontainer{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.currentinfo p{
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.return{
+    margin: auto;
+    padding: 20px 5px;
+}
+.return a{
+    cursor: pointer;
+    color: white;
+    background-color: #04AA6D;
+    border-radius: 2px;
+    padding: 10px 8px;
+}
+
+.logout{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.logout a{
+    cursor: pointer;
+    color: white;
+    background-color: #04AA6D;
+    border-radius: 2px;
+    padding: 10px 5px;
+}
+.historywrapper{
+    margin-bottom: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+th{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+td, th{
+    border: 1px solid #dddddd;
+}

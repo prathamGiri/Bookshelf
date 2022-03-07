@@ -1,0 +1,7 @@
+0 === [pending Normal]Customer Has no books and ordering a fresh ordering
+1 === [Pending Return]Customer Has one book and now he is only returning it
+2 === [Pending Exchange]Customer has one book and now he wants to exchange it with another book
+3 === [Done Normal]Customer Had no books now we gave him one and the order is complete(we clicked change)
+4 === [Done Return]Customer Had one book and now he returned it to us(we clicked change)
+5 === [Done Exchange]Customer had one book and now he exchanged it with another book(we clicked change)
+6 === [Canceled Order]If customer dicides to cancel order

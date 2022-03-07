@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: rgba(151,151,151,0.03);
+}
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.msg{
+    width: 100%;
+}
+
+.msg p{
+    padding: 5px;
+    text-align: center;
+    background-color: #04AA6D;
+    color:white;
+    font-size: 22px;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #04AA6D;
+  border-right: none;
+  padding: 10px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #04AA6D;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #04AA6D;
+  background: #04AA6D;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+}
+
+.main{
+    padding-top: 80px;
+    background-color: #ffffff;
+}
+.showcase-box{
+    height: 320px;
+    width: 220px;
+    box-shadow: 5px 15px 30px rgba(0,0,0,0.3);
+    margin:0px 20px 10px 20px;
+    overflow: hidden;
+}
+.showcase-box img{
+    height: 260px;
+    width: 220px;
+    object-fit: cover;
+    object-position: top;
+}
+.showcase-heading{
+    padding-left: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #1a1a1a;
+}
+
+.status{
+    text-align: center;
+}
+.status p{
+    font-size: large;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info p{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cs-hidden{
+    overflow: visible !important;
+}
+
+
+/* css for the custom cat */
+
+.result{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.individual{
+    width: 220px;
+    margin:20px 20px 10px 20px;
+    box-shadow: 5px 15px 30px rgba(0,0,0,0.3);
+}
+
+.individualimg{
+    height: 260px;
+    width: 220px;
+    overflow: hidden;
+}
+
+.individualimg img{
+    height: 260px;
+    width: 220px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.catagories{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.catagories p{
+    margin: 5px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.more{
+    width: fit-content;
+    font-size: 22px;
+    color: white;
+    background-color: #04AA6D;
+    padding: 5px;
+    margin-left: 20px;
+}

@@ -1,0 +1,108 @@
+.loggedin{
+    width: 100%;
+}
+
+.wrapper {
+    margin: auto;
+    width: 80%;
+    padding: 16px;
+  }
+
+  .wrapper p{
+    font-size: 28px;
+    color: #04AA6D;
+    padding-top: 10px;
+  }
+
+  .wrapper label{
+    font-size: 20px;
+  }
+
+
+  
+/* Full-width input fields */
+input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit/register button */
+  .registerbtn {
+    margin-left: 50%;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    transform: translate(-50%);
+  }
+
+  #return{
+    margin-left: 50%;
+    text-align: center;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    transform: translate(-50%);
+    background-color: #f4511e;
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+
+  .notloggedin {
+    width: 100%;
+}
+.notwrapper{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    padding: 16px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    top: 50%;
+    transform: translateY(50%);
+}
+.container h3{
+    margin-top: 20px;
+}
+.link{
+    margin: auto;
+}
+
+.link a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 5px;
+    background-color: #04AA6D;
+    border-radius: 2px;
+    font-size: 32px;
+}
+
+.container h3{
+    font-size: 28px;
+}

@@ -1,0 +1,9 @@
+.img img{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.about p{
+    margin-bottom: 20px;
+    text-align: center;
+}
