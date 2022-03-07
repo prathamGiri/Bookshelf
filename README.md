@@ -27,6 +27,6 @@ To run this projects on your local computer:
 
 10. open any browser and type http://localhost/Bookshelf.
 
-11.first register and then login
+11. admin panal login: username : admin_name ; password : admin@pass
 
-admin login details Email=admin@gmail.com and Password=123456789.
+
