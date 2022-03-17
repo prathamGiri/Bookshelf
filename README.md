@@ -27,7 +27,7 @@ To run this projects on your local computer:
 
 10. open any browser and type http://localhost/Bookshelf.
 
-11. To open admin panal, go to http://locolhost/Bookshelf/admin
+11. To open admin panal, go to http://localhost/Bookshelf/admin
 
 12. admin panal login: username : admin_name ; password : admin@pass
 
