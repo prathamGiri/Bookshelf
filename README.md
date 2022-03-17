@@ -15,18 +15,20 @@ To run this projects on your local computer:
   
 4. extract files in C:\xampp\htdocs.
 
-5. open link localhost/phpmyadmin
+5. open link on web browser localhost/phpmyadmin
 
 6. click on new at side navbar.
 
-7. give a database name as (bookshelf_data) hit on create button.
+7. give a database name as "bookshelf_data", hit on create button.
 
 8. after creating database name click on import.
 
-9. browse the file in directory [Bookshelf/database/ex_database.sql].
+9. browse the file in directory [Bookshelf/database/bookshelf_data.sql].
 
 10. open any browser and type http://localhost/Bookshelf.
 
-11. admin panal login: username : admin_name ; password : admin@pass
+11. To open admin panal, go to http://locolhost/Bookshelf/admin
+
+12. admin panal login: username : admin_name ; password : admin@pass
 
 
