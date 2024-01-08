@@ -1,5 +1,7 @@
 # Bookshelf
 
+
+## A platform for book lovers to exchange/rent books.
 To run this projects on your local computer:
 1. Install XAMPP or WAMPP.
 
